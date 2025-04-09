@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Previsão do Tempo</h1>
+    <p>Confira a previsão para o seu dia!</p>
+  </header>
+
+  <section class="main-content">
+    <div class="weather-info">
+      <h2>Previsão para hoje:</h2>
+      <div id="weather-image">
+        <img src="" alt="Imagem do tempo" id="weather-icon">
+      </div>
+      <p id="weather-description">Descrição do clima</p>
+      <p id="weather-time">A chuva será em: <span id="rain-time">00:00</span></p>
+      <p id="weather-location">Locais com chuva forte: <span id="rain-location">Centro, Zona Sul</span></p>
+    </div>
+
+    <div class="city-search">
+      <label for="city">Digite sua cidade:</label>
+      <input type="text" id="city" placeholder="Ex: São Paulo">
+      <button id="search">Pesquisar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por [Seu Nome]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
